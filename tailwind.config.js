@@ -24,8 +24,8 @@ export default {
         opensans: ["Open Sans", "sans-serif"]
       },
       content: {
-        brush: "url('src/assets/brush.png')",
-        leetcode: "url('src/assets/leetcode.png')",
+        brush: "url('/assets/brush.png')",
+        leetcode: "url('/assets/leetcode.png')",
         person2: "url('./assets/mountain.jpg')",
         person3: "url('./assets/mountain.jpg')"
       }
