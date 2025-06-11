@@ -52,7 +52,7 @@ function Contact() {
                         hidden: { opacity: 0, y: 50 },
                         visible: { opacity: 1, y: 0 },
                     }}>
-                    <img src="public/assets/contact.jpg"  height="591px" width="442px" alt="contact" className="rounded-3xl"></img>
+                    <img src="/assets/contact.jpg"  height="591px" width="442px" alt="contact" className="rounded-3xl"></img>
                 </motion.div>
                 <motion.div
                     className="basis-1/2 mt-10 md:mt-0"

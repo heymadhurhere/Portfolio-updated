@@ -16,12 +16,12 @@ function Landing({ setSelectedPage }) {
                 before:rounded-t-[400px] before:w-full before:max-w-[400px] before:h-full
                 before:border-2 before:border-blue before:z-[-1]">
                         <img alt="profile" className=" hover:filter hover:saturate-200 transition duration-500 ease-out hover:scale-105 z-10 w-full
-                    max-w-[400px] md:max-w-[600px] h-[400px] object-cover rounded-t-[400px]" src="public/assets/profile.jpg" />
+                    max-w-[400px] md:max-w-[600px] h-[400px] object-cover rounded-t-[400px]" src="/assets/profile.jpg" />
                     </div>
                 ) : (
                     <div>
                         <img alt="profile" className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full
-                    max-w-[400px] md:max-w-[600px] h-[400px] object-cover rounded-t-[400px]" src="public/assets/profile.jpg" />
+                    max-w-[400px] md:max-w-[600px] h-[400px] object-cover rounded-t-[400px]" src="/assets/profile.jpg" />
                     </div>
                 )}
             </div>
