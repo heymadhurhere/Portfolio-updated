@@ -38,7 +38,7 @@ function MySkills() {
         {
             id: 5,
             name: 'C++',
-            icon: <img src="src/assets/cpp_logo.png" alt="cpp logo" className="w-[120px] h-[120px]" />
+            icon: <img src="public/assets/cpp_logo.png" alt="cpp logo" className="w-[120px] h-[120px]" />
         },
         {
             id: 6,

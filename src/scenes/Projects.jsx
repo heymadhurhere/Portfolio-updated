@@ -24,7 +24,7 @@ function Project({ title }) {
             <div className={overlayStyles}>
                 <p className="text-2xl font-playfair">{title}</p>
             </div>
-            <img src={`src/assets/${projectTitle}.png`} alt={projectTitle} />
+            <img src={`public/assets/${projectTitle}.png`} alt={projectTitle} />
         </motion.div>
     )
 }
