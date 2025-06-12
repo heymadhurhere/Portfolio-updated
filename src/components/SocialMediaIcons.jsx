@@ -1,6 +1,6 @@
 import React from "react";
 import { ImLinkedin } from "react-icons/im";
-import { FaInstagram } from "react-icons/fa";
+import { FaInstagram, FaGithub } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 
 function SocialMediaIcons() {
@@ -29,6 +29,14 @@ function SocialMediaIcons() {
             rel="noreferrer"
             >
                 <BsTwitterX size={30} />
+            </a>
+            <a
+            className="hover:opacity-50 transitio duration-500"
+            href="https://github.com/heymadhurhere"
+            target="_blank"
+            rel="noreferrer"
+            >
+                <FaGithub size={30} />
             </a>
         </div>
         

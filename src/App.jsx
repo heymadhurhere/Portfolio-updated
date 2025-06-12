@@ -32,7 +32,7 @@ function App() {
         selectedPage={selectedPage}
         setSelectedPage={setSelectedPage}
       />
-      <div className="w-5/6 mx-auto md:h-full">
+      <div className="w-5/6 mx-auto md:h-full mb-24">
         {isAboveMediumScreen && (
           <DotGroup
             selectedPage={selectedPage}
@@ -42,11 +42,11 @@ function App() {
         <Landing setSelectedPage={setSelectedPage} />
       </div>
       <LineGradeint />
-      <div className="w-5/6 mx-auto md:h-full">
+      <div className="w-5/6 mx-auto md:h-full mb-10">
         <MySkills setSelectedPage={setSelectedPage}/>
       </div>
       <LineGradeint />
-      <div className="w-5/6 mx-auto">
+      <div className="w-5/6 mx-auto mb-5">
         <Education setSelectedPage={setSelectedPage}/>
       </div>
       <LineGradeint />
