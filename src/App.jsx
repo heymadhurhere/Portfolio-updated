@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { Analytics } from '@vercel/analytics/react';
 import Navbar from "./scenes/Navbar"
 import useMediaQuery from './hooks/useMediaQuery';
 import DotGroup from "./scenes/DotGroup";
@@ -61,6 +62,7 @@ function App() {
         <Contact setSelectedPage={setSelectedPage}/>
       </div>
       <Footer />
+      <Analytics />
     </div>
   )
 }
