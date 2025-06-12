@@ -42,10 +42,9 @@ function App() {
         <Landing setSelectedPage={setSelectedPage} />
       </div>
       <LineGradeint />
-      <div className="w-5/6 mx-auto md:h-full mb-10">
+      <div className="w-5/6 mx-auto md:h-full md:mb-20">
         <MySkills setSelectedPage={setSelectedPage}/>
       </div>
-      <LineGradeint />
       <div className="w-5/6 mx-auto mb-5">
         <Education setSelectedPage={setSelectedPage}/>
       </div>
