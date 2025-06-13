@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import DonutChart from "./DonutChart";
 import CircularProgress from '@mui/material/CircularProgress';
-let easy, medium, hard
 
 const LeetcodeStats = () => {
     const [easy, setEasy] = useState(0);

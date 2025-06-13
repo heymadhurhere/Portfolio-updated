@@ -638,10 +638,6 @@ video {
   z-index: 40;
 }
 
-.z-20{
-  z-index: 20;
-}
-
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
@@ -655,11 +651,6 @@ video {
 .my-5{
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
-}
-
-.my-32{
-  margin-top: 8rem;
-  margin-bottom: 8rem;
 }
 
 .mb-10{
@@ -1247,6 +1238,10 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.filter{
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
 .transition{
   transition-property: color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
@@ -1300,21 +1295,6 @@ body,
 .before\:top-\[-50\%\]::before{
   content: var(--tw-content);
   top: -50%;
-}
-
-.before\:-left-\[25px\]::before{
-  content: var(--tw-content);
-  left: -25px;
-}
-
-.before\:-top-\[70px\]::before{
-  content: var(--tw-content);
-  top: -70px;
-}
-
-.before\:-left-\[20px\]::before{
-  content: var(--tw-content);
-  left: -20px;
 }
 
 .before\:z-\[-1\]::before{
@@ -1462,34 +1442,12 @@ body,
 }
 
 @media (min-width: 480px){
-  .xs\:relative{
-    position: relative;
-  }
-
   .xs\:w-\[calc\(50\%-20px\)\]{
     width: calc(50% - 20px);
-  }
-
-  .xs\:font-semibold{
-    font-weight: 600;
-  }
-
-  .xs\:text-deep-blue{
-    --tw-text-opacity: 1;
-    color: rgb(1 0 38 / var(--tw-text-opacity, 1));
-  }
-
-  .xs\:before\:content-brush::before{
-    --tw-content: url('/assets/brush.png');
-    content: var(--tw-content);
   }
 }
 
 @media (min-width: 780px){
-  .sm\:mt-3{
-    margin-top: 0.75rem;
-  }
-
   .sm\:grid{
     display: grid;
   }
@@ -1508,9 +1466,8 @@ body,
     order: 2;
   }
 
-  .md\:my-32{
-    margin-top: 8rem;
-    margin-bottom: 8rem;
+  .md\:mb-20{
+    margin-bottom: 5rem;
   }
 
   .md\:mt-0{
@@ -1519,18 +1476,6 @@ body,
 
   .md\:mt-32{
     margin-top: 8rem;
-  }
-
-  .md\:mb-10{
-    margin-bottom: 2.5rem;
-  }
-
-  .md\:mb-20{
-    margin-bottom: 5rem;
-  }
-
-  .md\:mb-5{
-    margin-bottom: 1.25rem;
   }
 
   .md\:flex{
