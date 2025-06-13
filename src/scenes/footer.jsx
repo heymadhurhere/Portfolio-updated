@@ -1,6 +1,7 @@
 import SocialMediaIcons from "../components/SocialMediaIcons";
 
 const Footer = () => {
+  const currYear = new Date().getFullYear();
   return (
     <footer className="h-64 bg-red pt-10 py-10">
       <div className="w-5/6 mx-auto">
@@ -10,7 +11,7 @@ const Footer = () => {
             Madhur Anand
           </p>
           <p className="font-playfair text-md text-yellow">
-            ©2025 All Rights Reserved.
+            ©{currYear} All Rights Reserved.
           </p>
         </div>
       </div>
