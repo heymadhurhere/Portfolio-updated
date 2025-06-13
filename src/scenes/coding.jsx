@@ -67,7 +67,7 @@ function Coding() {
                 </p>
                 <LineGradeint width="mx-auto w-2/4" />
                 <p className="mt-10">
-                    I'm actively involved in competitive programming and have solved over <span className="text-red underline underline-offset-2 text-2xl"><a href="https://codolio.com/profile/madhur_anand">800</a></span> DSA problems across various platforms. With a current Codeforces rating of 1178, I consistently practice and improve my problem-solving skills. C++ is my preferred language, and I enjoy tackling challenging algorithms and optimizing solutions through efficient code.
+                    I'm actively involved in competitive programming and have solved over <span className="text-red underline underline-offset-2 text-2xl"><a href="https://codolio.com/profile/madhur_anand">800</a></span> DSA problems across various platforms. With a max Codeforces rating of {maxRating}, I consistently practice and improve my problem-solving skills. C++ is my preferred language, and I enjoy tackling challenging algorithms and optimizing solutions through efficient code.
                 </p>
             </motion.div>
             {/* PROFILES */}
