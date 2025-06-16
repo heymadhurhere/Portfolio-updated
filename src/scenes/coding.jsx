@@ -63,7 +63,7 @@ function Coding() {
                 }}
             >
                 <p className="font-playfair font-semibold text-6xl mb-5">
-                    <span className="text-red">CODING</span> PROFILES
+                    <span className="text-red">CODING</span> PLATFORMS
                 </p>
                 <LineGradeint width="mx-auto w-2/4" />
                 <p className="mt-10">
