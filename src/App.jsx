@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { Analytics } from '@vercel/analytics/next';
+import { Analytics } from '@vercel/analytics/react';
 import Navbar from "./scenes/Navbar"
 import useMediaQuery from './hooks/useMediaQuery';
 import DotGroup from "./scenes/DotGroup";
