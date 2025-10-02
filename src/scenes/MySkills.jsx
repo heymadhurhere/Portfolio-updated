@@ -6,10 +6,11 @@ import {
     DiJavascript,
     DiReact,
     DiHtml5,
-    DiCss3
+    DiCss3,
+    DiNodejs,
 } from "react-icons/di";
-import { SiMysql } from "react-icons/si";
-import { FaGithub, FaGitAlt, FaBootstrap } from "react-icons/fa";
+import { SiMysql, SiMongodb } from "react-icons/si";
+import { FaGithub, FaGitAlt } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 
 function MySkills() {
@@ -27,8 +28,8 @@ function MySkills() {
         },
         {
             id: 3,
-            name: 'HTML5',
-            icon: <DiHtml5 size={120} color="#E34C26" />
+            name: 'MongoDB',
+            icon: <SiMongodb size={120} color="#4DB33D" />
         },
         {
             id: 4,
@@ -62,8 +63,8 @@ function MySkills() {
         },
         {
             id: 10,
-            name: 'Bootstrap',
-            icon: <FaBootstrap size={120} color="#553C7B" />
+            name: 'Nodejs',
+            icon: <DiNodejs size={120} color="#68A063" />
         }
     ];
 
