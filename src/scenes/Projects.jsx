@@ -69,13 +69,13 @@ function Projects() {
                 >
                     {/* ROW 1 */}
 
+                    <a href="https://github.com/heymadhurhere/Video-Call"><Project title="Video Conferencing" /></a>
                     <a href="https://github.com/heymadhurhere/WANDERLUST"><Project title="Wanderlust" /></a>
+
                     <a href="https://github.com/heymadhurhere/Keeper-App"><Project title="Keeper App" /></a>
-
                     <a href="https://github.com/heymadhurhere/Zerodha-Clone"><Project title="Trading Platform" /></a>
-                    <a href="https://github.com/heymadhurhere/Portfolio-updated"><Project title="Portfolio" /></a>
-                    <a href="https://github.com/heymadhurhere/Drum-Kit"><Project title="Drum Kit" /></a>
 
+                    <a href="https://github.com/heymadhurhere/Drum-Kit"><Project title="Drum Kit" /></a>
                     <a href="https://github.com/heymadhurhere/Weather-App"><Project title="Weather App" /></a>
 
 
